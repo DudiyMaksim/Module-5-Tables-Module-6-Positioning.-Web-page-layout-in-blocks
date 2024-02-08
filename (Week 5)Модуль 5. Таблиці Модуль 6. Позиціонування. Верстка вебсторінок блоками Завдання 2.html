@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Dropdown Menu</title>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        text-decoration: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .menu li{
+        position: relative;
+        width: 130px;
+        text-align: center;
+        border: 1px solid rgb(81, 133, 102);
+        background-color: rgb(76, 153, 108);
+    }
+    .menu a{
+        display: block;
+        text-align: center;
+        padding: 0 10px;
+        color: aliceblue;
+        height: 40px;
+        line-height: 40px;
+    }
+    .menu a:hover{
+        background-color: rgb(59, 114, 82);
+    }
+    .menu ul{
+        position: absolute;
+        left: 0;
+        top: 100%;
+        display: none;
+        padding: 0;
+    }
+    .menu li:hover > ul{
+        display: block;
+    }
+    .menu li:hover > ul{
+        background-color: rgb(59, 114, 82);
+    }
+    .menu ul ul{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+    p{
+        margin: 50px 40px;
+    }
+</style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Categories</a>
+            <ul>
+                <li><a href="">Man</a>
+                    <ul>
+                        <li><a href="">Caps</a></li>
+                        <li><a href="">Pants</a></li>
+                        <li><a href="">Shoes</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Woomen</a>
+                    <ul>
+                        <li><a href="">Dress</a></li>
+                        <li><a href="">Pants</a></li>
+                        <li><a href="">Shoes</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Kids</a>
+                    <ul>
+                        <li><a href="">Сostumes</a></li>
+                        <li><a href="">Pants</a></li>
+                        <li><a href="">Shoes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contacts</a></li>
+    </ul>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore recusandae veritatis earum omnis fuga molestiae blanditiis eos, veniam ad mollitia quis eligendi quisquam incidunt, esse repellat praesentium, voluptatibus similique laudantium exercitationem dolorum enim aperiam sed aliquid fugit! Sit sint eum tenetur, ea, iste libero dolore nemo eligendi nesciunt quaerat voluptates. Eaque porro quae, vel aperiam harum sint quis sunt, sequi eveniet delectus maiores animi aliquam quaerat rerum dolore recusandae incidunt laboriosam fugiat unde cumque laudantium nesciunt praesentium? Perspiciatis exercitationem quo debitis vitae ab iure eveniet? Tempore, nulla dolores eos sequi iusto cupiditate dignissimos architecto optio quam neque voluptas repellat magni rem corrupti illo in non blanditiis nisi excepturi voluptate, perferendis odit? Earum neque sunt rerum officia sit repellat dolore ducimus modi omnis ipsam voluptatibus voluptates alias nisi nulla reiciendis minus magnam error, aliquam id voluptate sapiente esse hic iure. Temporibus dolorem commodi quis. Laborum, quasi officiis modi ipsam distinctio provident.
+    </p>
+</body>
+</html>
